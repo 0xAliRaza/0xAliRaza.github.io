@@ -11,6 +11,7 @@
 	--color-text: #f4f4f4;
 	--max-width: 1160px;
 	--horizontal-gutter: 20px;
+	--horizontal-gutter-sm: 10px;
 }
 
 /* --------------------------------------------------------- */
@@ -25,8 +26,8 @@
 }
 
 html {
-	/* To make 1rem = 10px */
-	font-size: 62.5%;
+	/* To make 1rem = 8px */
+	font-size: 50%;
 }
 
 body {
