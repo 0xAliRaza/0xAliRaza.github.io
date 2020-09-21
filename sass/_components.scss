@@ -1,0 +1,78 @@
+.heading-primary {
+	font-size: 3.2rem;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 2px;
+	word-spacing: 1px;
+	margin-bottom: 2rem;
+
+	&--main {
+		display: block;
+		margin-bottom: 5px;
+	}
+	&--sub {
+		// font-weight: 400;
+		font-size: 1.6rem;
+		display: block;
+	}
+}
+
+.btn {
+	font-size: 1.5rem;
+	padding: 1rem 3rem;
+	border: 1px solid transparent;
+	border-radius: 50px;
+	display: inline-block;
+	transition: background-color 0.3s;
+	&:not(:last-of-type) {
+		margin-right: 5px;
+	}
+	&--full {
+		border: 1px solid var(--color-primary);
+		&:hover {
+			border: 1px solid var(--color-primary-dark);
+			background-color: var(--color-primary-dark);
+		}
+		background-color: var(--color-primary);
+	}
+	&--ghost {
+		&:hover {
+			background-color: var(--color-primary);
+		}
+		border: 1px solid var(--color-primary);
+	}
+}
+
+.list {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&__item {
+		padding: 0.7rem;
+
+	}
+
+	&__icon {
+		width: 2rem;
+        height: 2rem;
+	}
+
+
+	&--skills &__icon {
+		filter: drop-shadow(0px 0px 3px var(--color-secondary-dark));
+		width: 4rem;
+		height: 4rem;
+	}
+}
+
+.paragraph {
+	color: inherit;
+	font-size: 2rem;
+	text-shadow: 0 0 3px #000;
+	&:not(:last-of-type) {
+		margin-bottom: 0.7rem;
+	}
+}
