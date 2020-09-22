@@ -82,6 +82,7 @@
 		padding: 1rem;
 		position: relative;
 		border-top: 1px solid var(--color-primary);
+		animation: 1s cubic-bezier(0.76, 0, 0.24, 1) 0s 1 slideUp;
 
 		/* Horizontal line with centered text */
 		&::after {
@@ -98,5 +99,14 @@
 			background-color: var(--color-secondary);
 			padding: 0.5rem 1rem;
 		}
+	}
+
+	&__about {
+		animation: 1s cubic-bezier(0.76, 0, 0.24, 1) 0s 1 bounceInLeft;
+	}
+	&__cta-box,
+	&__intro-box,
+	&__img-box {
+		animation: 1s cubic-bezier(0.76, 0, 0.24, 1) 0s 1 bounceInRight;
 	}
 }

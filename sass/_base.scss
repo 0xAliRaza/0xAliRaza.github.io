@@ -52,6 +52,72 @@ $breakpoints: (
 }
 
 /* --------------------------------------------------------- */
+/* KEYFRAMES */
+/* --------------------------------------------------------- */
+@keyframes slideInFromLeft {
+	0% {
+		transform: translateX(-150%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes bounceInLeft {
+	0% {
+	   opacity: 0;
+	   transform: translateX(-500%);
+	}
+	60% {
+	   opacity: 1;
+	   transform: translateX(30px);
+	}
+	80% {
+	   transform: translateX(-10px);
+	}
+	100% {
+	   transform: translateX(0);
+	}
+ } 
+
+ @keyframes bounceInRight {
+	0% {
+	   opacity: 0;
+	   transform: translateX(500%);
+	}
+	60% {
+	   opacity: 1;
+	   transform: translateX(-30px);
+	}
+	80% {
+	   transform: translateX(10px);
+	}
+	100% {
+	   transform: translateX(0);
+	}
+ } 
+
+ @keyframes slideUp {
+	0% {
+	  transform: translateY(1200px);
+	  opacity: .7;
+	}
+  
+	100% {
+	  transform: translateY(0px);
+	  opacity: 1;
+	}
+  
+  }
+
+
+  @keyframes pulse {
+	0% { transform: scale(1); }
+	10% { transform: scale(1.1); }
+	20% { transform: scale(1); } 
+ } 
+
+/* --------------------------------------------------------- */
 /* BASE STYLES */
 /* --------------------------------------------------------- */
 *,
@@ -79,6 +145,7 @@ body {
 	line-height: 1.2;
 	background-color: var(--color-secondary);
 	color: var(--color-text);
+	overflow-x:hidden; 
 }
 
 a,
