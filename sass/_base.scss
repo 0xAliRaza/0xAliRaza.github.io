@@ -9,9 +9,46 @@
 	--color-secondary-dark: #1e2223;
 	--color-secondary-light: #3c4649;
 	--color-text: #f4f4f4;
-	--max-width: 1160px;
-	--horizontal-gutter: 20px;
-	--horizontal-gutter-sm: 10px;
+}
+$max-width: 116rem;
+$horizontal-gutter: 2rem;
+$horizontal-gutter-sm: 1rem;
+$navbar-height: 6.7rem;
+
+/* commonly used points (SCSS map) */
+$breakpoints: (
+	//   'phone': 320px,
+	// 'phone-lg': 500px,
+	//   'tablet': 768px,
+	//   'desktop': 1024px
+	//   'desktop-md': 1200px
+	'phone': 20em,
+	'phone-lg': 31.25em,
+	'tablet': 48em,
+	'desktop': 64em,
+	'desktop-md': 75em
+) !default;
+
+/* --------------------------------------------------------- */
+/* HELPERS */
+/* --------------------------------------------------------- */
+.mb-2 {
+	margin-bottom: 2rem;
+}
+
+.container {
+	max-width: 66.5rem; // 1rem(8px) * 66.5rem = 532px
+	margin: 0 auto;
+	padding: 0 $horizontal-gutter;
+	width: 100%;
+
+	@media only screen and (min-width: map-get($breakpoints, 'desktop')) and (max-width: map-get($map: $breakpoints, $key: 'desktop-md')) {
+		max-width: 72rem;
+	}
+	@media only screen and (min-width: map-get($breakpoints, 'desktop-md')) {
+		max-width: 90rem;
+	}
+
 }
 
 /* --------------------------------------------------------- */
@@ -28,10 +65,14 @@
 html {
 	/* To make 1rem = 8px */
 	font-size: 50%;
+	box-sizing: border-box;
+	@media only screen and (min-width: map-get($breakpoints, 'tablet')) {
+		/* 1rem = 10px */
+		font-size: 62.5%;
+	}
 }
 
 body {
-	box-sizing: border-box;
 	font-family: 'Lato', sans-serif;
 	font-size: normal;
 	font-weight: 400;
@@ -43,7 +84,7 @@ body {
 a,
 a:link,
 a:visited {
-    text-decoration: none;
+	text-decoration: none;
 	color: inherit;
 }
 

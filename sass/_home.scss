@@ -1,27 +1,13 @@
-/* --------------------------------------------------------- */
-/* LAYOUT */
-/* --------------------------------------------------------- */
-.container {
-	max-width: var(--max-width);
-	margin: 0 auto;
-	padding: 0 var(--horizontal-gutter);
-	width: 100%;
-}
-
-/* --------------------------------------------------------- */
-/* CONTENT */
-/* --------------------------------------------------------- */
-
 .content {
-	padding-top: 10rem;
 	width: 100%;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 
 	&__top-navbar {
+		height: $navbar-height;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -30,6 +16,11 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1.5rem 2rem;
+	}
+
+	/* Mock height element */
+	&__navbar-filler {
+		height: $navbar-height;
 	}
 
 	&__logo,
@@ -46,8 +37,20 @@
 		}
 	}
 
+	/* Vertically centered */
+	&__main-box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 2rem 0 3rem;
+		/* 48.75em * 16px = 780px */
+		@media only screen and (min-width: map-get($breakpoints, 'phone')) and (min-height: 48.75em) {
+			margin: -3rem 0 3rem;
+		}
+	}
+
 	&__img-box {
-		margin-top: auto;
 	}
 
 	&__img {
@@ -64,20 +67,36 @@
 		}
 	}
 
-
-	&__about-box {
-		margin: 2rem 0;
-		// padding: 0 1rem;
+	&__intro-box {
 	}
 
-	&__skill-box {
-		// position: absolute;
-		// bottom: 0;
-		margin-top: auto;
+	&__cta-box {
+		white-space: nowrap;
+	}
+
+	&__about {
+	}
+
+	&__skills {
 		width: 100%;
 		padding: 1rem;
+		position: relative;
+		border-top: 1px solid var(--color-primary);
+
+		/* Horizontal line with centered text */
+		&::after {
+			content: 'Skills';
+			display: inline;
+			text-transform: uppercase;
+			color: var(--color-primary);
+			font-size: 1.6rem;
+			font-weight: 400;
+			position: absolute;
+			top: -13px;
+			left: 50%;
+			transform: translateX(-50%);
+			background-color: var(--color-secondary);
+			padding: 0.5rem 1rem;
+		}
 	}
-
-
-
 }
