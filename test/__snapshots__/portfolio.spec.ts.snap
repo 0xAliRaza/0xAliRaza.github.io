@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`projects renders correctly 1`] = `
+<div>
+  <header resume-url
+          external-links
+  >
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <section class="projects">
+            <div class="text-center my-3">
+              <h1>
+                Projects
+              </h1>
+            </div>
+            <div class="row justify-content-center py-4">
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+  </footer>
+</div>
+`;

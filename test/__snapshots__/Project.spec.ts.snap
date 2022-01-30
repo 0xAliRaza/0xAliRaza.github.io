@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project renders correctly 1`] = `
+<div class="project">
+  <div class="project__image">
+    <img src="https://images.unsplash.com/photo-1633000975009-b1ce39994b81?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;h=400&amp;ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzNDExMzE4Ng&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=800"
+         alt="test image"
+         class="img-fluid"
+    >
+    <div class="project__technologies">
+      <span class="project__technology">
+        HTML
+      </span>
+      <span class="project__technology">
+        CSS
+      </span>
+      <span class="project__technology">
+        JavaScript
+      </span>
+      <span class="project__technology">
+        VueJS
+      </span>
+      <span class="project__technology">
+        NuxtJS
+      </span>
+      <span class="project__technology">
+        Docker
+      </span>
+      <span class="project__technology">
+        SCSS
+      </span>
+      <span class="project__technology">
+        Git
+      </span>
+    </div>
+  </div>
+  <div class="project__details">
+    <div class="project__title">
+      <h3>
+        test_title_lkjsadfk;lkjl;jasdf
+      </h3>
+    </div>
+    <div class="project__description">
+      <p>
+        test_description_ljsdfljk128734
+      </p>
+    </div>
+    <div class="project__links">
+      <button-stub link="https://0xali.com"
+                   small
+                   primary
+                   title="Live Demo"
+      >
+        Demo
+        <icon-stub name="globe"
+                   class="ms-1"
+        >
+        </icon-stub>
+      </button-stub>
+      <button-stub link="https://github.com/"
+                   small
+                   github
+                   title="Source Code"
+      >
+        Source
+        <icon-stub name="github"
+                   class="ms-1"
+        >
+        </icon-stub>
+      </button-stub>
+      <button-stub link="https://youtube.com/"
+                   small
+                   youtube
+                   title="Video Demo"
+      >
+        Video
+        <icon-stub name="youtubeplay"
+                   class="ms-1"
+        >
+        </icon-stub>
+      </button-stub>
+    </div>
+  </div>
+</div>
+`;

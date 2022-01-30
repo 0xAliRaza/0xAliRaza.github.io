@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`about renders correctly 1`] = `
+<div>
+  <header resume-url
+          external-links
+  >
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <section class="about">
+            <div class="about__heading my-3 text-center">
+              <h1>
+                About
+              </h1>
+            </div>
+            <div class="py-3">
+              <nuxt-content-stub document="[object Object]">
+              </nuxt-content-stub>
+            </div>
+            <div class="about__links">
+              <a href="#"
+                 target="_blank"
+                 class="about__link"
+              >
+                <icon-stub name="discord"
+                           class="about__icon"
+                >
+                </icon-stub>
+              </a>
+              <a href="#"
+                 target="_blank"
+                 class="about__link"
+              >
+                <icon-stub name="twitter"
+                           class="about__icon"
+                >
+                </icon-stub>
+              </a>
+              <a href="#"
+                 target="_blank"
+                 class="about__link"
+              >
+                <icon-stub name="facebook"
+                           class="about__icon"
+                >
+                </icon-stub>
+              </a>
+            </div>
+            <div class="
+                my-3
+                text-nowrap
+                d-flex
+                align-items-center
+                justify-content-center
+              ">
+              <button outline-primary
+                      nuxt-link="/contact"
+              >
+                Contact
+              </button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+  </footer>
+</div>
+`;
