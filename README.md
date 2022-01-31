@@ -2,8 +2,8 @@
 
 <p align="center">
   <a href="https://github.com/0xAliRaza/codefolio/blob/main/LICENSE"><img src="https://img.shields.io/github/license/0xaliraza/codefolio?sanitize=true" alt="License"></a>
-  <a href="https://github.com/0xAliRaza/codefolio/actions/workflows/ci.yml"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/0xaliraza/codefolio/CI" alt="Build Status"></a>
-  <a href="https://github.com/0xAliRaza/codefolio/actions/workflows/cd.yml"><img src="https://github.com/0xAliRaza/codefolio/actions/workflows/cd.yml/badge.svg" alt="Build Status"></a>
+  <a href="https://github.com/0xAliRaza/0xAliRaza.github.io/actions/workflows/ci.yml"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/0xaliraza/0xAliRaza.github.io/CI" alt="Build Status"></a>
+  <a href="https://github.com/0xAliRaza/0xAliRaza.github.io/actions/workflows/cd.yml"><img src="https://github.com/0xAliRaza/0xAliRaza.github.io/actions/workflows/cd.yml/badge.svg" alt="Build Status"></a>
   
 </p>
 
