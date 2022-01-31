@@ -94,6 +94,7 @@ export default {
 
   // @nuxtjs/gtm configs, check https://github.com/nuxt-community/gtm-module
   gtm: {
+    enabled: true,
     id: 'GTM-WCL5BVV',
   },
 
