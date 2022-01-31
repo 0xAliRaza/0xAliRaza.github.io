@@ -96,6 +96,8 @@ export default {
   gtm: {
     enabled: true,
     id: 'GTM-WCL5BVV',
+    pageTracking: true,
+    scriptURL: 'https://www.googletagmanager.com/gtag/js',
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
