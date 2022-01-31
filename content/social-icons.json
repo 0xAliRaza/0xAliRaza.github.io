@@ -1,24 +1,16 @@
 {
   "icons": [
     {
-      "name": "discord",
-      "url": "#"
-    },
-    {
-      "name": "facebook",
-      "url": "#"
+      "name": "twitter",
+      "url": "https://twitter.com/0xaliraza"
     },
     {
       "name": "github",
-      "url": "#"
-    },
-    {
-      "name": "twitter",
-      "url": "#"
+      "url": "https://github.com/0xaliraza"
     },
     {
       "name": "gmail",
-      "url": "#"
+      "url": "mailto:0xaliraza@gmail.com"
     },
     {
       "name": "skype",

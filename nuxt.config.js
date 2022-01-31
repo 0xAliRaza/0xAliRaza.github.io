@@ -2,13 +2,9 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-  router: {
-    base: '/codefolio/',
-  },
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Codefolio',
+    title: 'Ali Raza - Full Stack Web Developer',
     htmlAttrs: {
       lang: 'en',
     },
@@ -84,9 +80,15 @@ export default {
 
   // Sitemap module options: https://sitemap.nuxtjs.org/guide/configuration
   sitemap: {
-    hostname: 'https://example.com',
+    hostname: 'https://0xali.com',
     gzip: true,
-    // routes: ['/test', '/test/2', '/test/3'],
+    routes: [
+      '/codefolio',
+      '/wid-blog-frontend',
+      '/habitly',
+      '/0xfolio',
+      '/dream-flowers-design',
+    ],
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
