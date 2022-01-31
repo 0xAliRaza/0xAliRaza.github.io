@@ -69,6 +69,7 @@ export default {
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     '@nuxtjs/svg-sprite',
+    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -76,7 +77,6 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/sitemap',
-    '@nuxtjs/gtm',
   ],
 
   // Sitemap module options: https://sitemap.nuxtjs.org/guide/configuration
@@ -92,12 +92,9 @@ export default {
     ],
   },
 
-  // @nuxtjs/gtm configs, check https://github.com/nuxt-community/gtm-module
-  gtm: {
-    enabled: true,
-    id: 'GTM-WCL5BVV',
-    pageTracking: true,
-    scriptURL: 'https://www.googletagmanager.com/gtag/js',
+  // @nuxtjs/google-analytics configs, https://google-analytics.nuxtjs.org/setup/
+  googleAnalytics: {
+    id: 'UA-109228988-3',
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
