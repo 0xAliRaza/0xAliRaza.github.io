@@ -76,6 +76,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/sitemap',
+    '@nuxtjs/gtm',
   ],
 
   // Sitemap module options: https://sitemap.nuxtjs.org/guide/configuration
@@ -89,6 +90,11 @@ export default {
       '/0xfolio',
       '/dream-flowers-design',
     ],
+  },
+
+  // @nuxtjs/gtm configs, check https://github.com/nuxt-community/gtm-module
+  gtm: {
+    id: 'GTM-WCL5BVV',
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
