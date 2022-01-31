@@ -53,6 +53,13 @@ export default {
         href: '/site.webmanifest',
       },
     ],
+    script: [
+      {
+        hid: 'tawk.to',
+        src: 'https://embed.tawk.to/60ef6018d6e7610a49ab51bb/1fajguo58',
+        defer: true,
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
