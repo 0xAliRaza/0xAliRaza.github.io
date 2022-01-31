@@ -1,4 +1,4 @@
-<h1 align="center">Codefolio</h1>
+<h1 align="center">Codefolio as 0xAliRaza.github.io</h1>
 
 <p align="center">
   <a href="https://github.com/0xAliRaza/codefolio/blob/main/LICENSE"><img src="https://img.shields.io/github/license/0xaliraza/codefolio?sanitize=true" alt="License"></a>
