@@ -15,13 +15,13 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Codefolio is a Jamstack portfolio web application for programmers by Ali Raza. It is built using Nuxt.js and leverages the @nuxt/content module.',
+          'Ali Raza is a Full Stack Web Developer based in Pakistan. With more 3+ years of experience, he is proficient in both back-end and front-end development.',
       },
       {
         hid: 'keywords',
         name: 'keywords',
         content:
-          '0xAliRaza, nuxt, nuxtjs, nuxt.js, jamstack, portfolio, free-template, html-template, portfolio-project, resume-template',
+          '0xAliRaza, Ali Raza, Full Stack, Web Developer, PHP, JavaScript, Laravel, Vue, Angular, Freelancer',
       },
       {
         hid: 'author',
@@ -57,7 +57,9 @@ export default {
       {
         hid: 'tawk.to',
         src: 'https://embed.tawk.to/60ef6018d6e7610a49ab51bb/1fajguo58',
+        async: true,
         defer: true,
+        crossorigin: '*',
       },
     ],
   },
