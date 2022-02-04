@@ -21,7 +21,7 @@ export default {
         hid: 'keywords',
         name: 'keywords',
         content:
-          '0xAliRaza, Ali Raza, Full Stack, Web Developer, PHP, JavaScript, Laravel, Vue, Angular, Freelancer',
+          '0xAliRaza, Ali Raza, Faisalabad, Full Stack, Web Developer, PHP, JavaScript, Freelancer, Programmer, Software Developer',
       },
       {
         hid: 'author',

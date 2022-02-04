@@ -68,7 +68,7 @@ export default Vue.extend({
     }
   },
   head: {
-    title: 'About - Codefolio',
+    title: 'About - Ali Raza',
   },
 })
 </script>

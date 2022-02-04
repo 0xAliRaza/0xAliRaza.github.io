@@ -119,7 +119,7 @@ export default Vue.extend({
     }
   },
   head: {
-    title: 'Contact - Codefolio',
+    title: 'Contact - Ali Raza',
   },
 })
 </script>
