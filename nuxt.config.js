@@ -15,13 +15,13 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Ali Raza is a Full Stack Web Developer based in Pakistan. With more 3+ years of experience, he is proficient in both back-end and front-end development.',
+          'Ali Raza is a Web Developer from Faisalabad, Pakistan. After working as a freelancer for the past 3+ years, he is proficient at both frontend and backend development.',
       },
       {
         hid: 'keywords',
         name: 'keywords',
         content:
-          '0xAliRaza, Ali Raza, Faisalabad, Full Stack, Web Developer, PHP, JavaScript, Freelancer, Programmer, Software Developer',
+          '0xAliRaza, Ali Raza, Faisalabad, Full Stack, Web Developer, PHP, JavaScript, Freelancer, Programmer, , Software Developer',
       },
       {
         hid: 'author',

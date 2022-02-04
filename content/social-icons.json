@@ -1,6 +1,26 @@
 {
   "icons": [
     {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/ali-raza-061130202"
+    },
+    {
+      "name": "medium",
+      "url": "https://0xali.medium.com"
+    },
+    {
+      "name": "gmail",
+      "url": "mailto:0xaliraza@gmail.com"
+    },
+    {
+      "name": "phone",
+      "url": "tel:+923061966883"
+    },
+    {
+      "name": "whatsapp",
+      "url": "https://wa.me/message/3OR3CAM6BBLPB1"
+    },
+    {
       "name": "twitter",
       "url": "https://twitter.com/0xaliraza"
     },
@@ -9,12 +29,8 @@
       "url": "https://github.com/0xaliraza"
     },
     {
-      "name": "gmail",
-      "url": "mailto:0xaliraza@gmail.com"
-    },
-    {
       "name": "skype",
-      "url": "#"
+      "url": "https://join.skype.com/invite/v9YkO4fFzfIn"
     }
   ]
 }
