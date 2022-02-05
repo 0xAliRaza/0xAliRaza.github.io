@@ -1,20 +1,24 @@
 {
   "id": 3,
   "title": "Write it down",
-  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil in autem alias sapiente accusamus officiis facere, iusto dolor. Laborum consectetur voluptatem hic incidunt sit sequi saepe ullam in sapiente impedit.",
-  "image": "https://source.unsplash.com/random/1920x1080",
+  "description": "Write It Down is a blogging web application and it has all the useful features a blogger needs. It includes a really useful yet minimal and distraction-free WYSIWYG editor powered by TinyMCE. This project was inspired by Ghost and Medium.",
+  "image": "write-it-down_0xali.com.png",
   "links": {
-    "liveDemo": "#",
-    "demoVideo": "#",
-    "sourceCode": "#"
+    "liveDemo": "https://0xali.com/wid-blog-frontend/",
+    "sourceCode": "https://0xali.com/0xaliraza/wid-blog-frontend/"
   },
   "technologies": [
     "HTML",
     "css",
     "scss",
     "javaScript",
+    "Typescript",
     "angular",
+    "PHP",
+    "MySQL",
     "laravel",
+    "JWT-auth",
+    "tinymce",
     "git",
     "docker"
   ]

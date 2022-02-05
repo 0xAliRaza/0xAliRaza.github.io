@@ -1,24 +1,21 @@
 {
   "id": 1,
-  "title": "Codefolio",
-  "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, blanditiis! Ut nemo minus illo. Perferendis non adipisci harum voluptatem quam accusantium totam iure aperiam quasi. Perferendis odit ullam hic sed!",
-  "image": "https://source.unsplash.com/random/1920x1080",
+  "title": "Codefolio (current app)",
+  "description": "Codefolio is a Jamstack portfolio web application for programmers. It is built using Nuxt.js and leverages @nuxt/content module to generate production ready static assets using the user data placed in content directory.",
+  "image": "codefolio_0xali.com.png",
   "links": {
-    "liveDemo": "#",
-    "videoDemo": "#",
-    "sourceCode": "#"
+    "liveDemo": "https://0xali.com/codefolio/",
+    "sourceCode": "https://github.com/0xaliraza/codefolio/"
   },
   "technologies": [
     "HTML",
     "CSS",
     "SCSS",
+    "Bootstrap",
     "JavaScript",
+    "TypeScript",
     "NuxtJS",
-    "Git",
-    "CSS",
-    "SCSS",
-    "JavaScript",
-    "NuxtJS",
+    "JestJS",
     "Git"
   ]
 }
