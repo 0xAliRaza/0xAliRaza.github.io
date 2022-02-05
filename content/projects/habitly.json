@@ -1,7 +1,7 @@
 {
   "id": 2,
   "title": "Habitly",
-  "description": "Habitly is a full-stack web app that helps users keep track of their daily habits, build healthy atomic habits, and get rid of unhealthy ones. This project was inspired by the famous book “Atomic Habits” by James Clear.",
+  "description": "A full-stack web application that helps users build atomic habits. Its purpose is to help users keep track of their daily habits, build new healthy habits, and get rid of unhealthy ones. This project was inspired by the famous book “Atomic Habits” by James Clear.",
   "image": "habitly_0xali.com.png",
   "links": {
     "liveDemo": "https://0xali.com/habitly/",
@@ -11,6 +11,7 @@
     "HTML",
     "CSS",
     "SCSS",
+    "Bootstrap",
     "JavaScript",
     "VueJS",
     "Django",

@@ -1,7 +1,7 @@
 {
   "id": 3,
   "title": "Write it down",
-  "description": "Write It Down is a blogging web application and it has all the useful features a blogger needs. It includes a really useful yet minimal and distraction-free WYSIWYG editor powered by TinyMCE. This project was inspired by Ghost and Medium.",
+  "description": "A fully-featured blogging web app that has a beautiful inline editor, SPA frontend, RESTful backend, role-based authorization, and many other useful features to provide the best blogging experience. This project was inspired by Ghost and Medium.",
   "image": "write-it-down_0xali.com.png",
   "links": {
     "liveDemo": "https://0xali.com/wid-blog-frontend/",
@@ -11,6 +11,7 @@
     "HTML",
     "css",
     "scss",
+    "Bootstrap",
     "javaScript",
     "Typescript",
     "angular",
