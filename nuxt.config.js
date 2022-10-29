@@ -29,6 +29,7 @@ export default {
         content: 'Ali Raza',
       },
       { name: 'format-detection', content: 'telephone=no' },
+      { name: 'cf-2fa-verify', content: '0d706011cabc544' },
     ],
     link: [
       {
