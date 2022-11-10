@@ -4,7 +4,6 @@
   "description": "A fully-featured blogging web app that has a beautiful inline editor, SPA frontend, RESTful backend, role-based authorization, and many other useful features to provide the best blogging experience. This project was inspired by Ghost and Medium.",
   "image": "write-it-down_0xali.com.png",
   "links": {
-    "liveDemo": "https://0xali.com/wid-blog-frontend/",
     "sourceCode": "https://github.com/0xaliraza/wid-blog-frontend/"
   },
   "technologies": [
