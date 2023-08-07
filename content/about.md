@@ -9,4 +9,4 @@ I believe a programmer isn't defined by the technologies they know but by their 
 
 I love CLI and my primary operating system is Ubuntu, so SSH'ing into servers and performing basic development operations is a breeze for me.
 
-_I am currently looking for a full-time remote position as a Web Developer._ Feel free to [contact](/contact) or connect using the below links.
+Feel free to [contact](/contact) or connect using the below links.
